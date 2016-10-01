@@ -1,4 +1,6 @@
 #Yii
+*.crx
+ServerSpy.pem
 runtime
 web/ueditor/php/upload
 
