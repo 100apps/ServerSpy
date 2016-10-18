@@ -1,6 +1,7 @@
 var headers=chrome.extension.getBackgroundPage().currentHeader;
 function $(id){return document.getElementById(id);}
-function html(id,html){$(id).innerHTML=html};
+function escapeHTML(str) { return str.replace(/[&"'<>]/g, (m) => ({ "&": "&amp;", '"': "&quot;", "'": "&#39;", "<": "&lt;", ">": "&gt;" })[m]); }
+function html(id,html){$(id).innerHTML=escapeHTML(html)};
 
 html("header",headers.header);
 
