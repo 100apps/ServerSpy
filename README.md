@@ -12,7 +12,7 @@ zip -r /ramdisk/ServerSpy.zip * -x *.git*
 
 # INSTALL
 
-- Firefox <https://addons.mozilla.org/zh-cn/firefox/addon/server-spy2/> [签名版下载](https://github.com/100apps/ServerSpy/raw/master/web-ext-artifacts/server_spy-1.2-an%2Bfx.xpi)
+- Firefox [mozilla官方下载](https://addons.mozilla.org/zh-cn/firefox/addon/server-spy2/) |  [签名版下载](https://github.com/100apps/ServerSpy/raw/master/web-ext-artifacts/server_spy-1.2-an%2Bfx.xpi)
 - Chrome <https://chrome.google.com/webstore/detail/server-spy/mcgbfbichapcffmamnmgcobomdpgeagf>
 
 
