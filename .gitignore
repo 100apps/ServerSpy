@@ -46,4 +46,3 @@ build/
 /logs
 *.log
 *.log.*
-web-ext-artifacts/
